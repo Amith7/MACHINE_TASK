@@ -1,0 +1,29 @@
+/* Prompt.css */
+.prompt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .prompt-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .prompt-box button {
+    margin: 5px 10px;
+  }
+  input{
+    margin: 10px;
+  }
+  

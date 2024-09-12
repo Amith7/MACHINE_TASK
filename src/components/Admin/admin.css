@@ -1,0 +1,68 @@
+#admincover {
+    width: 100%;
+    height: 100%;
+}
+
+#adminwrap {
+    background-image: url('../../images/dp4.jpg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card {
+    width: fit-content;
+    border-radius: 30px;
+    opacity: 85%;
+    height: 60vh;
+    background-color: gray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 50px;
+    scrollbar-width: none;
+}
+
+#card ::-webkit-scrollbar {
+    display: none;
+}
+
+td {
+    border: 2px solid black;
+    padding: 30px;
+    width: fit-content;
+    display: flexbox;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    background-color: white;
+}
+
+#card1 {
+    width: fit-content;
+    border-radius: 30px;
+    opacity: 85%;
+    height: 60vh;
+    background-color: gray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 50px;
+    scrollbar-width: none;
+    margin-left: 20px;
+}
+
+#piece {
+    width: fit-content;
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+}

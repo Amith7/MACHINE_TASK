@@ -1,0 +1,74 @@
+#Registercontainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    background-position: center;
+}
+
+#Registerwrapper {
+
+    min-width: 750px;
+
+    height: fit-content;
+    background-color: lightgray;
+    position: relative;
+    opacity: 75%;
+    top: 20%;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px black;
+}
+
+#mainbox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding: 50px;
+    text-align: start;
+}
+
+input {
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+label {
+    font-weight: 800;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+button {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+a {
+    font-size: 1rem;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
